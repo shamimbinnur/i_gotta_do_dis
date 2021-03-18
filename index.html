@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>I gotta do !</title>
+</head>
+<body>
+    <header>
+        <h1>I gotta do dis !</h1>
+    </header>
+    <form>
+        <input class="todo_input" type="text">
+        <button class="todo_button" type="submit"><i class="fas fa-plus-square"></i> </button>
+        <div class="select">
+            <select name="todo" class="filter-todo">
+                <option value="All">All</option>
+                <option value="Completed">Completed</option>
+                <option value="Uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    
+
+    <div class="todo_container">
+        <ul class="todo_list">
+        </ul>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
