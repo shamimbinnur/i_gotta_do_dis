@@ -1,3 +1,10 @@
+// 	AUTHOR:		SHAMIM BIN NUR
+// 	GITHUB:		https://github.com/shamimbinnur
+// 	LINKEDIN:	https://www.linkedin.com/in/shamimbinnur
+// 	MAIL:		iamshamimbn@gmail.com
+// 	SITE:		www.shamimbinnur.me
+
+
 const todoInput = document.querySelector(".todo_input");
 const todoButton = document.querySelector(".todo_button");
 const todoList = document.querySelector(".todo_list");
